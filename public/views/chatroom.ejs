@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Greyscale chat</title>
+  <link rel="stylesheet" type="text/css" href="/css/chatroom.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.min.js"></script>
+  <script src="/js/js.cookie.js" ></script>
+  <script src="/js/chatroom.js"></script>
+  <script src="/js/chat.js"></script>
+</head>
+<body>
+
+<h3>Welcome <span id="username"></span> </h3>
+<p>Room ID: <span id="roomID"></span> </p>
+<div id="deleteRoomDiv">
+
+</div>
+
+<div id="chatArea">
+
+<div id="chatID" class="chatWindow">
+    <div id="" class="chatWindowHeader">
+        <span id="chatRoomName">Room</span>
+    </div>
+    <ul class="messages" id="selectedMessagesWindow"></ul>
+    <form id="chatForm" action="">
+        <input class="m" autocomplete="off" placeholder="Type something and press enter." />
+    </form>
+</div>	
+
+
+</div>
+
+</body>
+</html>

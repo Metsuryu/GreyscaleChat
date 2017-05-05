@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Greyscale chat</title>
+  <link rel="stylesheet" type="text/css" href="/css/home.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/js.cookie.js" ></script>
+  <script src="js/home.js"></script>
+</head>
+<body>
+
+<h3>Welcome <span id="username"></span> </h3> 
+
+<p><a href="/logout">Logout</a></p> 
+<br>
+
+<p>Create new room: </p>
+<form>
+  <input id="newRoomNameINP" type="text" name="newRoomName">
+  <button id="createBTN">Create</button>
+</form>
+
+
+<div id="chatRooms">
+	<p>Rooms:</p>
+	<li class="chatRoom" id="GeneralRoom" >GeneralRoom </li>
+	<ul id="chatRoomsUL">
+
+	</ul>
+</div>
+
+<p id="message"></p>
+
+</body>
+</html>

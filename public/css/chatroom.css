@@ -1,0 +1,85 @@
+/*General*/
+* {
+	margin: 0;
+	padding: 0; 
+	box-sizing: border-box; 
+}
+body {
+	word-wrap:break-word;
+	background-color: white;
+	font: 13px Helvetica, Arial;
+	margin:1em auto;
+	max-width:40em;
+}
+#chatRooms{
+	overflow: auto;
+	height: 50%;
+	width: 200px;
+	border: 1px solid black;
+	float: right;
+	position: absolute;
+	top:1%;
+	right: 1%;
+}
+#chatRooms ul{
+	font-size: 1em;
+	padding-left: 1.5em;
+}
+
+/*Chat*/
+.chatWindow {
+	background-color: white;
+	overflow: hidden;
+	border: solid 2px black;
+	width: 260px;
+	height: 340px;
+	position: fixed;
+	bottom: 0%;
+}
+form { 
+	background: white; 
+	padding: .12em; 
+	bottom: -0.5%;
+	width: 100%;
+	position: relative;
+}
+form input { 
+	padding: .1em; 
+	width: 100%; 
+}
+.messages {
+	overflow: auto;
+	top: 0;
+	height: 288px;
+	margin: 0; 
+	padding: 0; 
+}
+.receivedMessage {
+	padding: 0.5em;
+	margin: .5em;
+	border-radius: 15px;
+    background: lightgrey;
+    color: black;
+    width: 70%;
+    float: left;
+}
+.sentMessage {
+	padding: 0.5em;
+	margin: .5em;
+	border-radius: 15px;
+    background: black;
+    color: white;
+    width: 70%;
+    float: right;
+}
+.chatWindowHeader {
+	cursor: pointer;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	font-size: 1.1em;
+	padding: 0.2em;
+}
+#chatRoomName {
+	cursor: text;
+}

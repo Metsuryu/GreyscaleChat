@@ -1,0 +1,20 @@
+{
+  "name": "greyscalechat",
+  "version": "1.0.0",
+  "description": "Simple chat",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mario Cannistrà",
+  "license": "MIT",
+  "dependencies": {
+  "body-parser": "latest",
+  "cookie-parser": "latest",
+  "ejs": "latest",
+  "express": "latest",
+  "express-session": "latest",
+  "mongoose": "latest",
+  "socket.io": "^1.7.3"
+  }
+}
