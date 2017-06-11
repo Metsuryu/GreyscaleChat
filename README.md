@@ -1,8 +1,8 @@
 # Greyscale Chat
 
-A simple chatroom website, that uses only black, white, and greyscale colors.
+A simple chatroom website, that uses only black, white, and greyscale colors, and allows creation and deletion of rooms.
 
-Usage:
+# Usage:
 
 - Execute npm install in the project directory
 
